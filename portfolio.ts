@@ -12,16 +12,16 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Aqshal Zakki',
+  title: "Halo Semua, Saya Aqshal",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "Saya memiliki passion pada bidang Full Stack web development, memiliki pengalaman aplikasi web dengan pengembangan HTML, CSS, PHP, JavaScript, Git, REST API dengan Framework Vue.js, Nuxt.js, Svelte, Laravel, dan Codeigniter",
   resumeLink:
     'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'aqshalzakki',
 };
 
 export const contact = {};

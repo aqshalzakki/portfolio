@@ -25,6 +25,9 @@ const Navigation = () => {
     headroom.init();
   });
 
+  const phone = `tel:+${socialLinks.phone}`
+  const email = `mailto:${socialLinks.email}`
+
   return (
     <>
       <header className="header-global">
@@ -69,6 +72,38 @@ const Navigation = () => {
                 </Row>
               </div>
               <Nav className="align-items-lg-center ml-lg-auto" navbar>
+                {socialLinks.phone && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="Phone"
+                      className="nav-link-icon"
+                      href={phone}
+                      target="_blank"
+                    >
+                      <i className="fa fa-phone" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Nomor Telepon
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                )}
+                {socialLinks.email && (
+                  <NavItem>
+                    <NavLink
+                      rel="noopener"
+                      aria-label="email"
+                      className="nav-link-icon"
+                      href={email}
+                      target="_blank"
+                    >
+                      <i className="fa fa-envelope" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Email
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                )}
                 {socialLinks.facebook && (
                   <NavItem>
                     <NavLink

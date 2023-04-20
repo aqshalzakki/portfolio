@@ -2,9 +2,39 @@ import React from 'react';
 import { Button } from 'reactstrap';
 import { socialLinks } from '../portfolio';
 
+const phone = `tel:+${socialLinks.phone}`
+const email = `mailto:${socialLinks.email}`
 const SocialLinks = () => {
   return (
     <div className="btn-wrapper text-lg">
+      {socialLinks.phone && (
+        <Button
+          className="btn-icon-only rounded-circle ml-1"
+          color="info"
+          rel="noopener"
+          aria-label="Phone"
+          href={phone}
+          target="_blank"
+        >
+          <span className="btn-inner--icon">
+            <i className="fa fa-phone" />
+          </span>
+        </Button>
+      )}
+      {socialLinks.email && (
+        <Button
+          className="btn-icon-only rounded-circle ml-1"
+          color="facebook"
+          rel="noopener"
+          aria-label="Email"
+          href={email}
+          target="_blank"
+        >
+          <span className="btn-inner--icon">
+            <i className="fa fa-envelope" />
+          </span>
+        </Button>
+      )}
       {socialLinks.url && (
         <Button
           className="btn-icon-only rounded-circle ml-1"

@@ -42,9 +42,9 @@ const Greetings = () => {
                         href={greetings.resumeLink}
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-file" />
+                          <i className="fa fa-file-pdf-o" />
                         </span>
-                        <span className="btn-inner--text">See My Resume</span>
+                        <span className="btn-inner--text">Lihat resume saya</span>
                       </Button>
                     </div>
                   )}

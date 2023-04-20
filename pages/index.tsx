@@ -29,7 +29,7 @@ export default function Home({
       <Proficiency />
       <Education />
       <Experience />
-      <Feedbacks />
+      {/* <Feedbacks /> */}
       <Projects />
       {showContactUs ? <Contact /> : null}
       <GithubProfileCard {...githubProfileData} />
@@ -44,7 +44,9 @@ export default function Home({
 export async function getStaticProps() {
   const githubProfileData: GithubUserType = await fetch(
     `https://api.github.com/users/${openSource.githubUserName}`
-  ).then((res) => res.json());
+  ).then((res) => {
+    return res.json()
+  });
 
   return {
     props: { githubProfileData },

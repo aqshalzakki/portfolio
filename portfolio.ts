@@ -15,9 +15,10 @@ export const greetings: GreetingsType = {
   name: 'Aqshal Zakki',
   title: "Halo Semua, Saya Aqshal",
   description:
-    "Saya memiliki passion pada bidang Full Stack web development, memiliki pengalaman aplikasi web dengan pengembangan HTML, CSS, PHP, JavaScript, Git, REST API dengan Framework Vue.js, Nuxt.js, Svelte, Laravel, dan Codeigniter",
+    "Saya memiliki passion pada bidang Full Stack web development, memiliki pengalaman aplikasi web dengan pengembangan HTML, CSS, PHP, JavaScript, Vue.js, Nuxt.js, Svelte, REST API, Laravel, Codeigniter, Git",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+  // TODO
+    'https://drive.google.com/file/d/1hOldHFBhD6OC8UfufniG_xAozv8IbaVP/view?usp=sharing',
 };
 
 export const openSource = {
@@ -27,27 +28,27 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  phone: '6285795177202',
+  email: 'm.aqshal.zakki@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/muhammad-aqshal-zakki/',
+  github: 'https://github.com/aqshalzakki',
+  instagram: 'https://www.instagram.com/aqshalzakki',
 };
 
 export const skillsSection: SkillsSectionType = {
-  title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  title: 'Siapa saya?',
+  subTitle: 'SEORANG FULLSTACK DEVELOPER YANG HAUS AKAN ILMU SEPUTAR TEKNOLOGI ZAMAN NOW',
   data: [
     {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
+          '⚡ Membuat responsive Single-Page-Apps (SPA) & SSR menggunakan Nuxt.js'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
-        emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
+        emoji('⚡ Membuat responsive static websites menggunakan Vue.js / Svelte'),
+        emoji('⚡ Membuat RESTful APIs menggunakan Framework Laravel & Codeigniter '),
+        emoji('⚡ Berpengalaman melakukan Test Driven Development (TDD)'),
       ],
       softwareSkills: [
         {
@@ -63,25 +64,33 @@ export const skillsSection: SkillsSectionType = {
           fontAwesomeClassName: 'logos:javascript',
         },
         {
-          skillName: 'Reactjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-reactjs',
+          skillName: 'VueJS',
+          fontAwesomeClassName: 'vscode-icons:file-type-vue',
         },
         {
-          skillName: 'Nextjs',
-          fontAwesomeClassName: 'vscode-icons:file-type-light-next',
+          skillName: 'NuxtJS',
+          fontAwesomeClassName: 'vscode-icons:file-type-nuxt',
         },
         {
-          skillName: 'Python',
-          fontAwesomeClassName: 'logos:python',
+          skillName: 'MySQL',
+          fontAwesomeClassName: 'logos:mysql-icon',
         },
         {
-          skillName: 'Django',
-          fontAwesomeClassName: 'vscode-icons:file-type-django',
+          skillName: 'Laravel',
+          fontAwesomeClassName: 'logos:laravel',
+        },
+        {
+          skillName: 'Codeigniter',
+          fontAwesomeClassName: 'logos:codeigniter-icon',
         },
 
         {
-          skillName: 'Redux',
-          fontAwesomeClassName: 'logos:redux',
+          skillName: 'Git',
+          fontAwesomeClassName: 'logos:git-icon',
+        },
+        {
+          skillName: 'Github',
+          fontAwesomeClassName: 'logos:github-octocat',
         },
         {
           skillName: 'NPM',
@@ -94,190 +103,168 @@ export const skillsSection: SkillsSectionType = {
       ],
     },
     {
-      title: 'Cloud Infra-Architecture',
+      title: 'Server Deployment',
       lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
-        emoji('⚡ Experience of working on multiple cloud platforms'),
         emoji(
-          '⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases'
+          '⚡ End-to-end Test untuk Memastikan aplikasi berjalan dengan lancar sebelum proses deployment'
         ),
         emoji(
-          '⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions'
+          '⚡ CI/CD pipelines untuk automasi testing & deployment menggunakan Github Actions'
         ),
       ],
-      softwareSkills: [
-        // ? Check README To get icon details
-        {
-          skillName: 'AWS',
-          fontAwesomeClassName: 'logos:aws',
-        },
-        {
-          skillName: 'Azure',
-          fontAwesomeClassName: 'logos:microsoft-azure',
-        },
-        {
-          skillName: 'Heroku',
-          fontAwesomeClassName: 'logos:heroku-icon',
-        },
-        {
-          skillName: 'PostgreSQL',
-          fontAwesomeClassName: 'logos:postgresql',
-        },
-        {
-          skillName: 'Github',
-          fontAwesomeClassName: 'akar-icons:github-fill',
-        },
-        {
-          skillName: 'Docker',
-          fontAwesomeClassName: 'logos:docker-icon',
-        },
-        {
-          skillName: 'Github Actions',
-          fontAwesomeClassName: 'logos:github-actions',
-        },
-        {
-          skillName: 'Cloudinary',
-          fontAwesomeClassName: 'logos:cloudinary',
-        },
-        {
-          skillName: 'Nginx',
-          fontAwesomeClassName: 'logos:nginx',
-        },
-        {
-          skillName: 'Sentry',
-          fontAwesomeClassName: 'logos:sentry-icon',
-        },
-      ],
+      softwareSkills: [],
     },
-    {
-      title: 'Blockchain',
-      lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
-      skills: [
-        emoji(
-          '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
-        ),
-        emoji(
-          '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
-        ),
-        emoji(
-          '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
-        ),
-        emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
-        emoji(
-          '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
-        ),
-      ],
-      softwareSkills: [
-        {
-          skillName: 'Ethereum',
-          fontAwesomeClassName: 'logos:ethereum',
-        },
-        {
-          skillName: 'Solidity',
-          fontAwesomeClassName: 'logos:solidity',
-        },
-        {
-          skillName: 'Web3js',
-          fontAwesomeClassName: 'logos:web3js',
-        },
-        {
-          skillName: 'Metamask',
-          fontAwesomeClassName: 'logos:metamask-icon',
-        },
-        {
-          skillName: 'Ganache',
-          fontAwesomeClassName: 'logos:ganache-icon',
-        },
-      ],
-    },
+    // {
+    //   title: 'Blockchain',
+    //   lottieAnimationFile: '/lottie/skills/ethereum.json', // Path of Lottie Animation JSON File
+    //   skills: [
+    //     emoji(
+    //       '⚡ Experience in developing Smart Contract using Solidity & Ethereum'
+    //     ),
+    //     emoji(
+    //       '⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura'
+    //     ),
+    //     emoji(
+    //       '⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles'
+    //     ),
+    //     emoji('⚡ Developing NFT Smart Contracts using ERC-721 Token Standard'),
+    //     emoji(
+    //       '⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS'
+    //     ),
+    //   ],
+    //   softwareSkills: [
+    //     {
+    //       skillName: 'Ethereum',
+    //       fontAwesomeClassName: 'logos:ethereum',
+    //     },
+    //     {
+    //       skillName: 'Solidity',
+    //       fontAwesomeClassName: 'logos:solidity',
+    //     },
+    //     {
+    //       skillName: 'Web3js',
+    //       fontAwesomeClassName: 'logos:web3js',
+    //     },
+    //     {
+    //       skillName: 'Metamask',
+    //       fontAwesomeClassName: 'logos:metamask-icon',
+    //     },
+    //     {
+    //       skillName: 'Ganache',
+    //       fontAwesomeClassName: 'logos:ganache-icon',
+    //     },
+    //   ],
+    // },
   ],
 };
 
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    progressPercentage: '70', //Insert relative proficiency in percentage
   },
   {
     Stack: 'Backend',
-    progressPercentage: '70',
+    progressPercentage: '80',
   },
   {
-    Stack: 'Programming',
-    progressPercentage: '60',
+    Stack: 'DevOps',
+    progressPercentage: '64',
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
-    subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
+    schoolName: 'SMKN 2 Kota Bandung',
+    subHeader: 'Jurusan Rekayasa Perangkat Lunak',
+    duration: '2017 - 2020',
+    desc: 'Berpartisipasi melakukan research pengembangan aplikasi',
     grade: 'Grade A',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Merancang & Membangun sebuah aplikasi web e-commerce untuk tugas akhir',
+      'Membuat aplikasi web pendaftaran siswa/siswi smk negeri 2 kota bandung',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
-  },
-  {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
-    role: 'Full Stack Developer',
-    company: 'Bleed-AI',
-    companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
-  },
-  {
-    role: 'Backend Developer',
-    company: 'Wapidu',
-    companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    role: 'Fullstack Developer',
+    company: 'Era Daya Potensia',
+    companyLogo: '/img/icons/common/edp.png',
+    date: '2020 Juli – Sekarang',
+    desc: 'Saya bekerja sebagai Fullstack Developer untuk merancang, membuat aplikasi berbasis web menggunakan Vue, Nuxt, Laravel, ApexChart.js dan beberapa library lainnya.',
+    descBullets: [
+    	"Membuat planning serta rancangan untuk aplikasi yang akan dibuat",
+    	"Meng-eksekusi rancangan aplikasi sesuai dengan request client",
+    	"Melakukan End-to-end Test dan Test Driven Development",
+    ],
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'Klinik Arsaya landing page',
+    desc: 'Landing page klinik anak arsaya, seputar informasi layanan: jadwal praktek dokter, tumbuh kembang anak, dll',
+    // github: 'https://github.com/1hanzla100/developer-portfolio',
+    link: 'https://klinikarsaya.com/',
+    icons: [
+      { title: 'Html', icon: 'vscode-icons:file-type-html' },
+      { title: 'Css', icon: 'vscode-icons:file-type-css' },
+      { title: 'JavaScript', icon: 'logos:javascript' },
+    ],
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'Booking Klinik Arsaya',
+    desc: 'Landing page untuk orangtua yang ingin anaknya berobat dan booking secara online',
+    // github: 'https://github.com/1hanzla100/developer-portfolio',
+    link: 'https://my.klinikarsaya.com/',
+    icons: [
+      { title: 'Bootstrap', icon: 'logos:bootstrap' },
+      { title: 'Codeigniter', icon: 'logos:codeigniter-icon' },
+    ],
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'Dashboard Klinik Arsaya',
+    desc: 'Dashboard admin klinik arsaya yang digunakan oleh user internal',
+    // github: 'https://github.com/1hanzla100/developer-portfolio',
+    link: 'https://dash.klinikarsaya.com/',
+    icons: [
+      { title: 'Bootstrap', icon: 'logos:bootstrap' },
+      { title: 'Codeigniter', icon: 'logos:codeigniter-icon' },
+    ],
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    name: 'Mediakarir landing page',
+    desc: 'Landing page untuk talent & corporate yang membutuhkan jasa psikotest online maupun sedang mencari talent',
+    // github: 'https://github.com/1hanzla100/developer-portfolio',
+    link: 'https://mediakarir.com/',
+    icons: [
+      { title: 'Html', icon: 'vscode-icons:file-type-html' },
+      { title: 'Css', icon: 'vscode-icons:file-type-css' },
+      { title: 'JavaScript', icon: 'logos:javascript' },
+    ],
+  },
+  {
+    name: 'Talent Mediakarir',
+    desc: 'Aplikasi untuk talent yang sedang mencari kerja maupun membuat cv online secara gratis',
+    link: 'https://my.mediakarir.com/',
+    icons: [
+      { title: 'NuxtJS', icon: 'logos:nuxt-icon' },
+      { title: 'Vuetify', icon: 'logos:vuetifyjs' },
+      { title: 'Laravel', icon: 'logos:laravel' },
+    ],
+  },
+  {
+    name: 'Dashboard Mediakarir',
+    desc: 'Dashboard admin yang digunakan oleh admin, hrd, finance, dan user internal lainnya',
+    link: 'https://dash.mediakarir.com/',
+    icons: [
+      { title: 'VueJS', icon: 'logos:vue' },
+      { title: 'Vuetify', icon: 'logos:vuetifyjs' },
+      { title: 'Laravel', icon: 'logos:laravel' },
+    ],
   },
 ];
 
@@ -295,23 +282,22 @@ export const feedbacks: FeedbackType[] = [
 ];
 
 // option to hide or show the ContactUs component
-export const showContactUs: boolean = true;
+export const showContactUs: boolean = false;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Aqshal Zakki',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+    'Seseorang yang mempunyai passion pada bidang programming',
+  author: 'Aqshal Zakki',
+  image: 'https://avatars.githubusercontent.com/u/46075252?s=400&u=0cb0770d90ac2e1bd0d9b138d841f89e08ca3374&v=4',
+  url: 'https://aqshalzakki.vercel.app',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
-    'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Aqshal',
+    'Aqshal Zakki',
+    '@aqshalzakki',
+    'Portofolio Aqshal',
+    'Portofolio Aqshal Zakki',
+    'Portofolio Muhammad Aqshal Zakki',
   ],
 };

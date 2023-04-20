@@ -1,5 +1,6 @@
 // Can be improved if we can get the response type from Github's API
 export type GithubUserType = {
+  phone?: string;
   login: string;
   id: number;
   node_id: string;

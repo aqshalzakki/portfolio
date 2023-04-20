@@ -1,9 +1,11 @@
-import React from 'react';
-import { Card, CardBody, Col, Button } from 'reactstrap';
+import React, { Fragment } from 'react';
+import { Icon } from '@iconify/react';
+
+import { Card, CardBody, Col, Button, UncontrolledTooltip } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import { ProjectType } from '../types/sections';
 
-const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
+const ProjectsCard = ({ name, icons, desc, github, link }: ProjectType) => {
   return (
     <Col lg="6">
       <Fade bottom duration={2000}>
@@ -27,6 +29,29 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
                     </span>
                   </Button>
                 ) : null}
+                {icons ? icons.map((icon, i) => {
+                  return (
+                    <Fragment key={i}>
+                      <div
+                        className="icon icon-md icon-shape shadow-sm rounded-circle mr-1 mb-3"
+                        id={icon.title}
+                      >
+                        <Icon
+                          icon={icon.icon}
+                          data-inline="false"
+                        ></Icon>
+                      </div>
+                      <UncontrolledTooltip
+                        delay={0}
+                        placement="bottom"
+                        target={icon.title}
+                      >
+                        {icon.title}
+                      </UncontrolledTooltip>
+                    </Fragment>
+                  );
+                }) : null}
+                <br />
                 {link ? (
                   <Button
                     className="btn-icon"

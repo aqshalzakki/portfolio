@@ -73,9 +73,15 @@ export type ExperienceType = {
 
 // * PROJECT SECTION
 
+type ProjectIcon = {
+  title: string;
+  icon: string;
+};
+
 export type ProjectType = {
   name: string;
   desc: string;
+  icons?: ProjectIcon[];
   github?: string;
   link?: string;
 };

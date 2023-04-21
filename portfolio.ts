@@ -13,7 +13,7 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Aqshal Zakki',
-  title: "Halo Semua!, Saya Aqshal Zakki",
+  title: "Hai Semua! Saya Aqshal Zakki",
   description:
     "Saya memiliki passion pada bidang Full Stack web development, memiliki pengalaman aplikasi web dengan pengembangan HTML, CSS, PHP, JavaScript, Vue.js, Nuxt.js, Svelte, REST API, Laravel, Codeigniter, Git",
   resumeLink:

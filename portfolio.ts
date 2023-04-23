@@ -15,10 +15,10 @@ export const greetings: GreetingsType = {
   name: 'Aqshal Zakki',
   title: "Hai Semua! Saya Aqshal Zakki",
   description:
-    "Saya memiliki passion pada bidang Full Stack web development, memiliki pengalaman aplikasi web dengan pengembangan HTML, CSS, PHP, JavaScript, Vue.js, Nuxt.js, Svelte, REST API, Laravel, Codeigniter, Git",
+    "Saya memiliki passion pada bidang Full Stack web development, memiliki pengalaman 3 tahun berjalan aplikasi web dengan pengembangan HTML, CSS, PHP, JavaScript, Vue.js, Nuxt.js, Svelte, REST API, Laravel, Codeigniter, Git",
   resumeLink:
   // TODO
-    'https://drive.google.com/file/d/1hOldHFBhD6OC8UfufniG_xAozv8IbaVP/view?usp=sharing',
+    'https://drive.google.com/file/d/1NUWFtws1fj2Dik1ecJ3wnZN_57Ck_Np8/view?usp=sharing',
 };
 
 export const openSource = {

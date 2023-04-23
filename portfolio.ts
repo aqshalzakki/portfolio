@@ -18,7 +18,7 @@ export const greetings: GreetingsType = {
     "Saya memiliki passion pada bidang Full Stack web development, memiliki pengalaman 3 tahun berjalan aplikasi web dengan pengembangan HTML, CSS, PHP, JavaScript, Vue.js, Nuxt.js, Svelte, REST API, Laravel, Codeigniter, Git",
   resumeLink:
   // TODO
-    'https://drive.google.com/file/d/1NUWFtws1fj2Dik1ecJ3wnZN_57Ck_Np8/view?usp=sharing',
+    'https://drive.google.com/file/d/1_mLra9BKYY3Djge_FQU2uvqbVClmLXaJ/view?usp=sharing',
 };
 
 export const openSource = {

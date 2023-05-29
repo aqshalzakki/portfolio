@@ -44,7 +44,7 @@ const Greetings = () => {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file-pdf-o" />
                         </span>
-                        <span className="btn-inner--text">Lihat resume saya</span>
+                        <span className="btn-inner--text">See my resume</span>
                       </Button>
                     </div>
                   )}

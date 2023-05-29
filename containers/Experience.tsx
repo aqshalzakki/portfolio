@@ -15,7 +15,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="pl-4">
-              <h4 className="display-3 text-info">Pengalaman</h4>
+              <h4 className="display-3 text-info">Experiences</h4>
             </div>
           </div>
           <Row className="row-grid align-items-start">

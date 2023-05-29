@@ -20,10 +20,9 @@ const GithubProfileCard = ({ phone, avatar_url, bio, location }: GithubUserType)
               />
             </Col>
             <Col lg="8" className="order-lg-1">
-              <h2 className="text-white">Hubungi saya!</h2>
+              <h2 className="text-white">Contact</h2>
               <p className="lead text-white mt-3 mb-3">
-                DISKUSIKAN PROJECT ATAU HANYA INGIN MENYAPA SAJA? INBOX SAYA TERBUKA UNTUK
-                SEMUA
+                DISCUSS PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL
               </p>
               {socialLinks.phone && (
                 <p className="text-white">

@@ -17,8 +17,8 @@ export const greetings: GreetingsType = {
   description:
     `I am good in data structures, algorithms in Javascript and a problem solver, have good understanding of software architecture design. 
     I have also know about internet of things & game development. I am keen interested for the development roles or SDE roles.`,
-  resumeLink:
-    'https://drive.google.com/file/d/1NUshHR2hYPlSF3szFSZpf4RyjabzmdID/view?usp=sharing',
+  // resumeLink:
+  //   'https://drive.google.com/file/d/1NUshHR2hYPlSF3szFSZpf4RyjabzmdID/view?usp=sharing',
 };
 
 export const openSource = {

@@ -25,12 +25,12 @@ export default function Home({
       <SEO />
       <Navigation />
       <Greetings />
+      <Projects />
       <Skills />
       <Proficiency />
       <Education />
       <Experience />
       {/* <Feedbacks /> */}
-      <Projects />
       {showContactUs ? <Contact /> : null}
       <GithubProfileCard {...githubProfileData} />
     </div>
